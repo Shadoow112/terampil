@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temu Rekap Administrasi Pelatihan LPK</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9fafc;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #2c3e50, #2980b9);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    header p {
+      margin: 8px 0 0;
+      font-size: 16px;
+    }
+    nav {
+      background: #34495e;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      margin: 8px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #f1c40f;
+    }
+    main {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    h2 {
+      color: #2c3e50;
+      border-left: 5px solid #2980b9;
+      padding-left: 10px;
+      margin-bottom: 15px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th {
+      background: #2980b9;
+      color: white;
+      padding: 12px;
+    }
+    td {
+      padding: 10px;
+      text-align: center;
+    }
+    a.button {
+      display: inline-block;
+      background: #2980b9;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 10px;
+      transition: background 0.3s;
+    }
+    a.button:hover {
+      background: #1f6391;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TERAMPIL</h1>
+    <p>Rekapitulasi dan kelengkapan data LPK secara digital</p>
+  </header>
+
+  <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#lpk">LPK</a>
+    <a href="#formulir">Formulir Pengisian Data</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <main>
+    <!-- Beranda -->
+    <section id="beranda">
+      <h2>🏠 Beranda</h2>
+      <p>Pada website ini Temu Rekap Administrasi Pelatihan LPK akan digunakan untuk merekap data <b>Lembaga Pelatihan Kerja (LPK)</b> 
+      yang ada di Provinsi Bali. Sistem ini bertujuan untuk mempermudah pemantauan, pembaruan, 
+      serta publikasi informasi terkait LPK secara transparan dan akurat.</p>
+    </section>
+
+    <!-- Data LPK -->
+    <section id="lpk">
+      <h2>📊 Data LPK</h2>
+      <p>Berikut adalah rekapan data Lembaga Pelatihan Kerja di Provinsi Bali:</p>
+      <table>
+        <tr>
+          <th>No</th>
+          <th>Nama LPK</th>
+          <th>Nomor Izin</th>
+          <th>Bidang Pelatihan</th>
+          <th>Status Akreditasi</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>LPK Marcopolo Bali International</td>
+          <td>123/2025</td>
+          <td>Pariwisata</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>LPK Venus One Tourism Academy</td>
+          <td>456/2025</td>
+          <td>Perhotelan</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>LPK Cendekia Bali</td>
+          <td>789/2025</td>
+          <td>TIK</td>
+          <td>Proses</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Formulir -->
+    <section id="formulir">
+      <h2>📝 Formulir Pengisian Data</h2>
+      <p>Untuk melengkapi atau memperbarui data LPK, silakan isi formulir berikut:</p>
+      <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSc7PVvRa52bQ5tAIF5ZY1iXgwa8E15Zy-M2n-UO3R7H-QBe6A/viewform?usp=header" target="_blank">
+        Isi Formulir Disini
+      </a>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak">
+      <h2>📌 Kontak</h2>
+      <p><b>Email:</b> disnakeresdm@baliprov.go.id</p>
+      <p><b>Telepon:</b> (0361) 223963 / 223964</p>
+      <p><b>Alamat:</b> Jalan Raya Puputan - Niti Mandala Renon, Denpasar</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Portal Data LPK Provinsi Bali</p>
+  </footer>
+
+</body>
+</html>
